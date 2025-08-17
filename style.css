@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(34, 193, 195, 0.15);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  padding: 2.5rem 2rem;
+  max-width: 400px;
+  margin: 4rem auto;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+h1 {
+  text-align: center;
+  color: #00bfae;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+label {
+  display: block;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #f8ffae;
+  font-weight: 500;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  background: #232526;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,191,174,0.07);
+  transition: box-shadow 0.2s;
+}
+
+input:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #00bfae;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(90deg, #00bfae 0%, #3a7bd5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #3a7bd5 0%, #00bfae 100%);
+}
+
+#result {
+  margin-top: 2rem;
+  background: rgba(0,191,174,0.08);
+  border-radius: 1rem;
+  padding: 1.2rem;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,191,174,0.07);
+}

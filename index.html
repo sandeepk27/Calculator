@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loan Interest Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Loan Interest Calculator</h1>
+    <form id="loanForm">
+      <label>Loan Type:</label>
+      <select id="loanType">
+        <option>Home Loan</option>
+        <option>Personal Loan</option>
+        <option>Car Loan</option>
+        <option>Gold Loan</option>
+      </select>
+
+      <label>Principal Amount (₹):</label>
+      <input type="number" id="principal" min="10000" required>
+
+      <label>Interest Rate (% per year):</label>
+      <input type="number" id="rate" max="21" required>
+
+      <label>Tenure:</label>
+      <select id="tenure" required>
+        <!-- Options will be populated by JS -->
+      </select>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
